@@ -26,8 +26,12 @@ public class CadastroDeProduto {
         em.flush();
         em.clear();
 
-        em.merge(celulares);
+        celulares = em.merge(celulares);
         celulares.setNome("1234");
+        em.flush();
+        em.clear();
+        CategoriaDao dao = new CategoriaDao(em);
+        dao.remover(celulares);
         em.flush();
     }
 }
