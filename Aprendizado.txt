@@ -7,3 +7,8 @@
 - Como configurar a JPA via arquivo persistence.xml;
 - Como mapear entidades JPA;
 - Como utilizar o EntityManager para persistir entidades no banco de dados.
+
+• Aula 3
+- Como escrever uma classe DAO utilizando a JPA;
+- Como mapear atributos do tipo Enum em uma entidade;
+- Como mapear um relacionamento entre entidades.
