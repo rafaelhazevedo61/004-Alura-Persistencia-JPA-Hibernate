@@ -23,7 +23,11 @@ public class CadastroDeProduto {
         em.persist(celulares);
         celulares.setNome("XPTO");
 
-        em.getTransaction().commit();
-        em.close();
+        em.flush();
+        em.clear();
+
+        em.merge(celulares);
+        celulares.setNome("1234");
+        em.flush();
     }
 }
