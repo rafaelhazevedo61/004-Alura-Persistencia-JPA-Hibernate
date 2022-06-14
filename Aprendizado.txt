@@ -18,3 +18,9 @@
 - As transições de estados de uma entidade ao ser persistida;
 - As transições de estados de uma entidade ao ser atualizada;
 - As transições de estados de uma entidade ao ser removida.
+
+• Aula 5
+- Como realizar consultas com o método find do Entity Manager;
+- Como realizar consultas JPQL;
+- Como filtrar dados em consultas JPQL;
+- Como retornar apenas parte de uma entidade em uma consulta JPQL.
